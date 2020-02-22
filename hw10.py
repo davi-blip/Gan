@@ -111,7 +111,7 @@ class Company:
         
         return result
 
-    def synergize(self):
+    def synergize(self:
         self.branches.sort()
         lowest_branches = self.branches[0]
         cut_employees = len(lowest_branches.team) // 2
